@@ -1,0 +1,29 @@
+ * { overflow:hidden; }/* Hide scrollbars*/
+
+.plot {
+  position:relative;
+  z-index:0;
+  width:1280px;
+  height:100vh;
+  margin: 50px auto; /*Center object*/
+  transform:scale(2); /*Scale to rezise screen*/
+}
+img {
+  position: absolute;
+  z-index:0;
+  top:0;
+  left:0;
+  width:100%;
+  height:auto;
+}
+
+.plotbtn {
+  position:absolute;
+  z-index:1;
+  top:0; /*Set default position vertical*/
+  left:0; /*Set default position horizontal */
+  width:40px; /*Set default position width*/
+  height:40px; /*Set default position height*/
+  background:transparent;
+  /*border: solid #000 1px;*/ 
+}
