@@ -1,4 +1,4 @@
- * { overflow:hidden; }/* Hide scrollbars*/
+html, body { overflow: hidden;}
 
 .plot {
   position:relative;
@@ -19,7 +19,7 @@ img {
 
 .plotbtn {
   position:absolute;
-  z-index:1;
+  z-index:2;
   top:0; /*Set default position vertical*/
   left:0; /*Set default position horizontal */
   width:40px; /*Set default position width*/
@@ -27,3 +27,23 @@ img {
   background:transparent;
   border: solid #000 1px;
 }
+
+#plotCloud-wrapper, #plotBG-wrapper {
+  position: absolute;
+  z-index:1;
+  top:0;
+  left:0;
+  height:auto;
+}
+
+/*ELEMENTS*/
+
+.monitor { top:50px;left:60px;width:75px;cursor: pointer;transition:all .2s;}
+.monitor:hover { top:40px;left:55px;width:85px; }
+
+.barchart { top:35px;left:165px;width:75px;}
+.piechart { top:35px;left:165px;width:75px;}
+.barchart-arrow { top:35px;left:165px;width:75px;}
+.paper { top:35px;left:165px;width:75px;}
+.datatract { top:35px;left:165px;width:75px;}
+.coinstack { top:35px;left:165px;width:75px;}
