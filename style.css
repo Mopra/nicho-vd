@@ -41,9 +41,19 @@ img {
 .monitor { top:50px;left:60px;width:75px;cursor: pointer;transition:all .2s;}
 .monitor:hover { top:40px;left:55px;width:85px; }
 
-.barchart { top:35px;left:165px;width:75px;}
-.piechart { top:45px;left:310px;width:75px;}
-.barchart-arrow { top:200px;left:105px;width:75px;}
-.paper { top:135px;left:260px;width:75px;}
-.datatract { top:110px;left:400px;width:75px;}
-.coinstack { top:35px;left:455px;width:75px;}
+.barchart { top:35px;left:165px;width:75px; }
+.piechart { top:45px;left:310px;width:75px; }
+.barchart-arrow { top:-5px;left:670px;width:110px; }
+.paper { top:135px;left:260px;width:75px; }
+.datatract { top:110px;left:400px;width:75px; }
+.coinstack { top:35px;left:450px;width:75px; }
+
+#plotCloud-wrapper .monitor { top:50px;left:60px;width:75px;cursor: pointer;transition:all .2s;}
+#plotCloud-wrapper .monitor:hover { top:40px;left:55px;width:85px; }
+
+#plotCloud-wrapper .barchart { top:35px;left:165px;width:75px; }
+#plotCloud-wrapper .piechart { top:45px;left:310px;width:75px; }
+#plotCloud-wrapper .barchart-arrow { top:200px;left:105px;width:75px; }
+#plotCloud-wrapper .paper { top:135px;left:260px;width:75px; }
+#plotCloud-wrapper .datatract { top:110px;left:400px;width:75px; }
+#plotCloud-wrapper .coinstack { top:35px;left:450px;width:75px; }
