@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('.plotbtn01').modal();
   $('.plotbtn02').modal();
+  $('.plotbtn03').modal();
 });
 
 $( function() {
