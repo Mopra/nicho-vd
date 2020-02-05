@@ -28,6 +28,7 @@ img {
   border: solid #000 1px;
 }
 
+
 #plotCloud-wrapper, #plotBG-wrapper {
   position: absolute;
   z-index:1;
@@ -38,22 +39,40 @@ img {
 
 /*ELEMENTS*/
 
-.monitor { top:50px;left:60px;width:75px;cursor: pointer;transition:all .2s;}
-.monitor:hover { top:40px;left:55px;width:85px; }
-
-.barchart { top:35px;left:165px;width:75px; }
-.piechart { top:45px;left:310px;width:75px; }
+.nicholaisen { top:440px;left:225px;width:75px;cursor: pointer;transition:all .2s;}
+.nicholaisen:hover { top:430px;left:215px;width:95px;}
+.monitor { top:560px;left:660px;width:75px;}
+.piechart { top:160px;left:820px;width:75px; }
 .barchart-arrow { top:-5px;left:670px;width:110px; }
-.paper { top:135px;left:260px;width:75px; }
-.datatract { top:110px;left:400px;width:75px; }
-.coinstack { top:35px;left:450px;width:75px; }
+.paper { top:390px;left:925px;width:55px; }
+.paper2 { top:430px;left:560px;width:55px; }
+.paper-with-pen { top:420px;left:490px;width:65px; }
+.coinstack { top:215px;left:1080px;width:55px; }
+.laptop { top:110px;left:980px;width:95px; }
+.technician { top:185px;left:960px;width:55px; }
+.cloud { top:280px;left:350px;width:130px; }
+.diy-on-plate { top:405px;left:625px;width:75px; }
+.technician-on-plate { top:470px;left:485px;width:75px; }
+.device { top:510px;left:530px;width:75px; }
+.mobile { top:465px;left:725px;width:75px; }
+.speech { top:560px;left:790px;width:95px; }
 
-#plotCloud-wrapper .monitor { top:50px;left:60px;width:75px;cursor: pointer;transition:all .2s;}
-#plotCloud-wrapper .monitor:hover { top:40px;left:55px;width:85px; }
+.machine01 { top:140px;left:570px;width:65px; }
+.machine02 { top:165px;left:520px;width:75px; }
+.machine03 { top:200px;left:470px;width:65px; }
+.machine04 { top:255px;left:660px;width:75px; }
+.machine05 { top:255px;left:775px;width:75px; }
+.machine06 { top:305px;left:700px;width:130px; }
+.machine07 { top:540px;left:590px;width:75px; }
 
+#plotCloud-wrapper .monitor { top:50px;left:60px;width:75px;}
 #plotCloud-wrapper .barchart { top:35px;left:165px;width:75px; }
 #plotCloud-wrapper .piechart { top:45px;left:310px;width:75px; }
 #plotCloud-wrapper .barchart-arrow { top:200px;left:105px;width:75px; }
 #plotCloud-wrapper .paper { top:135px;left:260px;width:75px; }
 #plotCloud-wrapper .datatract { top:110px;left:400px;width:75px; }
 #plotCloud-wrapper .coinstack { top:35px;left:450px;width:75px; }
+
+#blotbtn01:hover + .piechart {
+  width:200px;
+}
