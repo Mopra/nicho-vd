@@ -25,9 +25,11 @@ img {
   width:40px; /*Set default position width*/
   height:40px; /*Set default position height*/
   background:transparent;
-  border: solid #000 1px;
+  /*border: solid #000 1px;*/
 }
-
+.plotbtn01 {transform: skew(-60deg, 30deg);}
+.plotbtn02 {transform: skew(-60deg, 30deg);}
+.plotbtn03 {transform: skew(-60deg, 30deg);}
 
 #plotCloud-wrapper, #plotBG-wrapper {
   position: absolute;
@@ -39,8 +41,7 @@ img {
 
 /*ELEMENTS*/
 
-.nicholaisen { top:440px;left:225px;width:75px;cursor: pointer;transition:all .2s;}
-.nicholaisen:hover { top:430px;left:215px;width:95px;}
+.nicholaisen { top:440px;left:225px;width:75px;}
 .monitor { top:560px;left:660px;width:75px;}
 .piechart { top:160px;left:820px;width:75px; }
 .barchart-arrow { top:-5px;left:670px;width:110px; }
@@ -67,12 +68,49 @@ img {
 
 #plotCloud-wrapper .monitor { top:50px;left:60px;width:75px;}
 #plotCloud-wrapper .barchart { top:35px;left:165px;width:75px; }
-#plotCloud-wrapper .piechart { top:45px;left:310px;width:75px; }
+#plotCloud-wrapper .piechart2 { top:45px;left:310px;width:75px; }
 #plotCloud-wrapper .barchart-arrow { top:200px;left:105px;width:75px; }
 #plotCloud-wrapper .paper { top:135px;left:260px;width:75px; }
 #plotCloud-wrapper .datatract { top:110px;left:400px;width:75px; }
-#plotCloud-wrapper .coinstack { top:35px;left:450px;width:75px; }
+#plotCloud-wrapper .coinstack2 { top:35px;left:450px;width:75px; }
 
-#blotbtn01:hover + .piechart {
-  width:200px;
+.animate {
+  transition: all .5s ease;
+  transform: translateY(0px);
+}
+.animate1 {
+  transition: all .3s ease;
+  transform: translateY(-10px);
+}
+.animate2 {
+  transition: all .5s ease;
+  transform: translateY(-10px);
+}
+.animate3 {
+  transition: all .7s ease;
+  transform: translateY(-10px);
+}
+.animate4 {
+  transition: all 1.1s ease;
+  transform: translateY(-10px);
+}
+.animate5 {
+  transition: all 1.3s ease;
+  transform: translateY(-10px);
+}
+.animate6 {
+  transition: all 1.5s ease;
+  transform: translateY(-10px);
+}
+.animate7 {
+  transition: all 1.7s ease;
+  transform: translateY(-10px);
+}
+.animate8 {
+  transition: all 1.9s ease;
+  transform: translateY(-10px);
+}
+.animate9 {
+  transition: all 2.1s ease;
+  transform: translateY(-10px);
 }
