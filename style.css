@@ -1,4 +1,11 @@
 html, body { overflow: hidden;}
+.modal-content img {
+  width:100%;
+  position:relative;
+}
+.modal .modal-content {
+    padding: 0;
+}
 
 .plot {
   position:relative;
@@ -27,9 +34,13 @@ img {
   background:transparent;
   /*border: solid #000 1px;*/
 }
+
+/*CUSTOM...*/
+
 .plotbtn01 {transform: skew(-60deg, 30deg);}
 .plotbtn02 {transform: skew(-60deg, 30deg);}
 .plotbtn03 {transform: skew(-60deg, 30deg);}
+.plotbtn04 {transform: skew(-60deg, 30deg);}
 
 #plotCloud-wrapper, #plotBG-wrapper {
   position: absolute;
@@ -74,6 +85,8 @@ img {
 #plotCloud-wrapper .datatract { top:110px;left:400px;width:75px; }
 #plotCloud-wrapper .coinstack2 { top:35px;left:450px;width:75px; }
 
+
+/*Animation / Transition on elements*/
 .animate {
   transition: all .5s ease;
   transform: translateY(0px);
